@@ -729,7 +729,7 @@ video {
 }
 
 .bg-header-img {
-  background-image: url('./icons/header.jpg');
+  background-image: url('../icons/header.jpg');
 }
 
 .bg-cover {
