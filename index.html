@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/styles.css">
+    <title>TailwindCSS</title>
+</head>
+<body>
+
+    <header">
+        <nav>
+            <ul class="w-full h-16 bg-[#FFF145] flex flex-row p-2 justify-between items-center md:hidden">
+                <li class="hover:scale-110"><a href="#"><img class="p-2" src="/icons/Frame.png" alt="Group"></a></li>
+                <div class="flex">
+                    <div class="flex">
+                        <li class="hover:scale-110"><a href="#"><p class="font-semibold">RU</p></a></li>
+                        <li><div>/</div></li>
+                        <li class="hover:scale-110"><a href="#"><p>ENG</p></a></li>
+                    </div>
+                    <div class="flex pt-1">
+                        <li><a href="#"><img class="pl-6 hover:scale-110"src="/icons/heart.png" alt="heart"></a></li>
+                        <li><a href="#"><img  class="pl-4 mr-3 hover:scale-110"src="/icons/search.png" alt="search"></a></li>
+                    </div>
+
+                </div>               
+            </ul>
+        </nav>
+
+        <nav>
+            <ul class="hidden md:flex flex-row p-2 items-center w-full h-24 bg-header-img bg-no-repeat bg-size bg-cover justify-between">
+                <div class="flex items-center">
+                    <li class="hover:scale-110"><a href="#"><img  class ="pl-4"src="/icons/Group.png" alt="Group"></a></li>
+                    <div class="flex pl-16">
+                        <button class="flex border border-black border-solid hover:scale-110 mt-2 mr-4 pr-3 pt-2">
+                            <img class="pt-1 pl-3 pb-4 hover:scale-110" src="./icons/katalog.png" alt="katalog">
+                            <p class="text-lg font-semibold pl-4 pr-6 hover:text-white">Каталог</p>
+                        </button>
+                    </div>
+                    <li class="pl-2 hover:scale-110"><a href="#"><p class="font-medium hover:text-white">Бренды</p></a></li>
+                    <li class="pl-6 hover:scale-110"><a href="#"><p class="font-medium hover:text-white">Новости</p></a></li>
+                    <div>
+                        <div class="container mx-auto flex items-center pl-6">
+                            <div class="relative group flex">
+                                <button class="text-black hover:text-white"><p class="font-medium">РОСМЭН</p></button>
+                                <div class="absolute left-0 hidden mt-6 space-y-2 bg-white text-black group-hover:block">
+                                    <button class="block px-4 py-2 hover:bg-gray-200">п.1</button>
+                                    <button class="block px-4 py-2 hover:bg-gray-200">п.2</button>
+                                    <button class="block px-4 py-2 hover:bg-gray-200">п.3</button>
+                                </div>
+                                <a href="#"><img class="pt-1" src="./icons/arrdown.png" alt="arrdown"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="pl-6 hover:scale-110"><a href="#"><p class="font-medium hover:text-white">Партнерам</p></a></li>
+                </div>
+                
+                <div class="flex pr-4">
+                    <div class="flex pt-1 pr-4">
+                        <li class="hover:scale-110"><a href="#"><img class ="pl-6" src="/icons/search.png" alt="search"></a></li>
+                        <li class="hover:scale-110"><a href="#"><img class ="pl-6" src="/icons/micro.png" alt="micro"></a></li>
+                        <li class="hover:scale-110"><a href="#"><img class ="pl-6" src="/icons/heart.png" alt="heart"></a></li>
+                    </div>
+                    <div class="flex pl-6">
+                        <li class="hover:scale-110"><a href="#"><p class="font-semibold">RU</p></a></li>
+                        <li><div>/</div></li>
+                        <li class="hover:scale-110"><a href="#">ENG</a></li>
+                    </div>
+                </div>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="flex flex-col md:flex-row-reverse  md:pt-16">
+            <div class="pt-6 md:w-1/2 md:mr-20 md:pt-4"> 
+                <div class="flex justify-between items-center">
+                    <h1 class="md:text-4xl text-xl font-semibold pl-4">Джия</h1>
+                    <div class="flex pr-4">
+                        <p class="pr-2">1 из 32</p>
+                        <button class="pl-4 hover:scale-125"><img src="./icons/Icon_32px=Arrow Left.png" alt="Arrow Left" class="w-4 h-4 md:w-8 md:h-8"></button>
+                        <button class="pl-4 hover:scale-125"><img src="./icons/Icon_32px=Arrow Right.png" alt="Arrow Right" class="w-4 h-4 md:w-8 md:h-8"></button>
+                    </div>
+                        
+                </div>
+                <div>
+                    <p class="mt-2 p-3 md:text-sm">Животное в опасности? Команда Петроникс, вперед, на помощь! Игрушки Петроникс – персонажи одноименного мультсериала и их робо-питомцы! Отправляйся на миссии по спасению животных вместе с твоими любимыми героями!</p>
+                    <p class="p-3 md:text-sm">Джия – веселая и отважная участница команды.Фигурка подвижна, за счет чего ты сможешь придать ей нужную позу. Вращай головой, двигай руками, сгибай ноги и колени! В набор также входит Петроникс-рюкзак, его можно снять и надеть обратно в любой момент.</p>
+                </div>
+                <div class="mt-1 flex space-x-4 p-3">
+                    <button class="md:w-1/3 w-1/2 px-10 py-2 bg-black text-white hover:bg-yellow-400 hover:scale-110">Смотреть</button>
+                    <button class="md:w-1/3 w-1/2 px-10 py-2 bg-white text-black border border-black hover:bg-black hover:text-white hover:scale-110">На сайт</button>
+                </div>
+                <p class="p-3">Мы в соцсетях:</p>
+                <div class="p-3  flex space-x-4">
+                    <a href="#"><img class="hover:scale-110" src="./icons/VK.png" alt="VK"></a>
+                    <a href="#"><img class="hover:scale-110" src="./icons/Tiktok.png" alt="Tiktok"></a>
+                    <a href="#"><img class="hover:scale-110" src="./icons/Facebook.png" alt="Facebook"></a>
+                    <a href="#"><img class="hover:scale-110" src="./icons/Like.png" alt="Like"></a>
+                    <a href="#"><img class="hover:scale-110" src="./icons/Youtube.png" alt="Youtube"></a>
+                    <a href="#"><img class="hover:scale-110" src="./icons/in.png" alt="In"></a>
+                    <a href="#"><img class="hover:scale-110" src="./icons/Twitter.png" alt="Twitter"></a>
+                </div>
+
+            </div>
+            
+            <div class="flex p-3 ml-auto mr-auto md:mr-0 md:w-1/2 md:justify-center md:ml-0">
+                <img src="./images/перс1.jpg" alt="персонаж" class="">
+            </div>
+        </div>
+    </main>
+
+    <section>
+            <div class="p-4 w overflow-auto">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl font-semibold md:text-3xl md:ml-2">Новости</h2>
+                    <div class="flex items-center">
+                        <div class="hidden md:inline-block pr-2">
+                            <a href="#" class="text-black"><p class="underline" style="text-decoration: underline;">Смотреть все</p></a>
+                        </div>
+                        <div class="flex">
+                            <button class="pl-4 hover:scale-125"><img src="./icons/Icon_32px=Arrow Left.png" alt="Arrow Left" class="w-4 h-4 md:w-8 md:h-8"></button>
+                            <button class="pl-4 hover:scale-125"><img src="./icons/Icon_32px=Arrow Right.png" alt="Arrow Right" class="w-4 h-4 md:w-8 md:h-8"></button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="md:hidden">
+                    <a href="#" class="text-black mr-8"><p class="underline" style="text-decoration: underline;">Смотреть все</p></a>
+                </div>
+            </div>
+
+            <div class="flex overflow-auto p-3 space-x-2 md:space-x-4 md:p-4">
+
+                <div class=" w-full border border-gray-200 border-solid md:ml-2 hover:scale-105">
+                    <img src="./images/news1.png" alt="Фотография новости1" class="w-full h-auto">
+                    <div class="mt-2">
+                        <div class="flex items-center space-x-2 md:space-x-3">
+                            <span class="text-base font-bold pl-2">СТАТЬИ</span>
+                            <span>&#8226;</span>
+                            <span class="text-gray-600 text-sm">30.11.2022</span>
+                        </div>
+                        <p class="pl-2 pb-2  text-xs font-semibold md:font-bold md:pt-2 md:text-sm">Эпик Лончер: Так блейд Инфинити Надо еще не баттлил!</p>
+                        <p class="pl-2 text-xs md:text-sm">Пусковые установки Эпик Лончер подарят совершенно новый опыт запуска волчка на арену даже самому умелому Игроку!</p>
+                    </div>
+                </div>
+
+                <div class=" w-full border border-gray-200 border-solid hover:scale-105">
+                    <img src="./images/news2.jpg" alt="Фотография новости2" class="w-full h-auto">
+                    <div class="mt-2">
+                        <div class="flex items-center space-x-2 md:space-x-3">
+                            <span class="text-base font-bold pl-2 ">СТАТЬИ</span>
+                            <span>&#8226;</span>
+                            <span class="text-gray-600 text-sm">30.11.2022</span>
+                        </div>
+                        <p class=" pl-2 pb-2  text-xs font-semibold md:font-bold md:pt-2 md:text-sm">Стань Мастером Высшей Лиги с блейдами СТАКИНГ!</p>
+                        <p class="pl-2 text-xs md:text-sm">Переходи на новый уровень блейд-баттла и докажи, что достоин звания Мастера Высшей лиги!</p>
+                    </div>
+                </div>
+
+                <div class=" w-full border border-gray-200 border-solid hover:scale-105">
+                    <img src="./images/news3.jpg" alt="Фотография новости3" class="w-full h-auto">
+                    <div class="mt-2">
+                        <div class="flex items-center space-x-2 md:space-x-3">
+                            <span class="text-base font-bold pl-2 ">СТАТЬИ</span>
+                            <span>&#8226;</span>
+                            <span class="text-gray-600 text-sm">30.11.2022</span>
+                        </div>
+                        <p class=" pl-2 pb-2  text-xs font-semibold md:font-bold md:pt-2 md:text-sm">Новый закон накладывает вето на полуночный </p>
+                        <p class="pl-2 text-xs md:text-sm">Противоположная точка зрения подразумевает, что явные признаки победы институционализации лишь добавляют фракционных разногласий и объявлены нарушающими общечеловеческие нормы этики и морали.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+    </section>
+    
+</body>
+</html>
